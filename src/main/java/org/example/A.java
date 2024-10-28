@@ -8,6 +8,9 @@ public class A {
         this.b = b;
     }
 
+    public A() {
+    }
+
     public void setA(int a) {
         this.a = a;
     }
