@@ -19,4 +19,11 @@ public class Test1 {
         assertEquals(5, oa.getA());
     }
 
+    @Test
+    void testSetB(){
+        A oa = new A();
+        oa.setB(5);
+        assertEquals(5, oa.getB());
+    }
+
 }
