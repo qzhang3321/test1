@@ -12,5 +12,11 @@ public class Test1 {
         assertEquals(5, new A(2,3).sum());
     }
 
+    @Test
+    void testSet(){
+        A oa = new A();
+        oa.setA(5);
+        assertEquals(5, oa.getA());
+    }
 
 }
