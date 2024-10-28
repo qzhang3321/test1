@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>junit5-maven</artifactId>
+    <artifactId>test1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -45,6 +45,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
